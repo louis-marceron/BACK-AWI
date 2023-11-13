@@ -1,0 +1,30 @@
+{
+  "name": "back-awi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon -I --exec node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts",
+    "dev": "npx nodemon -I --exec node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis-marceron/BACK-AWI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louis-marceron/BACK-AWI/issues"
+  },
+  "homepage": "https://github.com/louis-marceron/BACK-AWI#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node-dev": "^2.0.0",
+    "tsc": "^2.0.4"
+  }
+}
