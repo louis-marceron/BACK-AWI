@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./dist/index.js",
-    "build": "npx tsc",
+    "build": "npm install typescript && npx tsc",
     "dev": "npx nodemon -I --exec node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts"
   },
   "repository": {
