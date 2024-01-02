@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "HAHAHAHHA" (
+    "id" SERIAL NOT NULL,
+    "name" TEXT NOT NULL,
+
+    CONSTRAINT "HAHAHAHHA_pkey" PRIMARY KEY ("id")
+);
