@@ -1,5 +1,6 @@
 # BACK-AWI
 
+### Le projet
 Il y un site festival-jeu.fr destiné au grand public, avec un bouton qui dirige vers le sous-domaine benevole.festival-jeu.fr. Donc la page d’accueil du sous-domaine comprendrait uniquement des informations relatives au bénévolat.
 Utilisateur non-connecté
 S’inscrire en tant que bénévole
@@ -27,3 +28,8 @@ Visualiser les plannings par poste et par créneaux
 Visualiser les postes de ses bénévoles (et leur planning) + tous les bénévoles
 Statistique (stats sur la représentations des associations dans le festival, + autres trucs ?)
 Le référent est censé voir les bénévoles qui animent cette zone à un moment du festival, pour les contacter en cas d’urgence 
+
+### Installation
+- Copier .env.example et le renommer en .env
+- Lancer la BD avec la commmande `docker compose up` à la racine du projet
+- Lancer le serveur avec la commande `npm run dev` ou `npm run start` en prod
